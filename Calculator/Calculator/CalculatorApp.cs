@@ -87,5 +87,10 @@ namespace Calculator
             ResultValue= Double.Parse(TxtBox.Text);
             LabelCurrentOperation.Text = "";
         }
+
+        private void CalculatorApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
