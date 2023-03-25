@@ -21,3 +21,4 @@ E:\CalculatorApp\CalculatorApp\Calculator\Calculator\obj\Debug\Calculator.csproj
 E:\CalculatorApp\CalculatorApp\Calculator\Calculator\obj\Debug\Calculator.exe
 E:\CalculatorApp\CalculatorApp\Calculator\Calculator\obj\Debug\Calculator.pdb
 E:\CalculatorApp\CalculatorApp\Calculator\Calculator\obj\Debug\Calculator.Login.resources
+E:\CalculatorApp\CalculatorApp\Calculator\Calculator\obj\Debug\Calculator.Resources.MenuBar.resources

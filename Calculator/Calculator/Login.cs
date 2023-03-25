@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculator.Resources;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -57,8 +58,10 @@ namespace Calculator
 
             if (Author.Contains(txtUserName.Text) && Passw.Contains(txtPassword.Text))
             {
-                new CalculatorApp().Show();
+                //new CalculatorApp().Show();
+                new MenuBar().Show();
                 this.Hide();
+                
             }
 
             //if (txtUserName.Text == "rohitkala" && txtPassword.Text == "kala")
