@@ -27,5 +27,11 @@ namespace Calculator.Resources
             new CalculatorApp().Show();
             this.Hide();
         }
+
+        private void employeeDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new EmployeeDetails().Show();
+            this.Hide();
+        }
     }
 }

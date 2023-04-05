@@ -52,6 +52,23 @@
     <Compile Include="CalculatorApp.Designer.cs">
       <DependentUpon>CalculatorApp.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalculatorDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalculatorDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\EmployeeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\EmployeeDetails.Designer.cs">
+      <DependentUpon>EmployeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\EmployeeDetailsNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\EmployeeDetailsNew.Designer.cs">
+      <DependentUpon>EmployeeDetailsNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +92,12 @@
     <EmbeddedResource Include="CalculatorApp.resx">
       <DependentUpon>CalculatorApp.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\EmployeeDetails.resx">
+      <DependentUpon>EmployeeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\EmployeeDetailsNew.resx">
+      <DependentUpon>EmployeeDetailsNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +117,17 @@
     <EmbeddedResource Include="Resources\MenuBar.resx">
       <DependentUpon>MenuBar.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="CalculatorDataSet.xsc">
+      <DependentUpon>CalculatorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CalculatorDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CalculatorDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CalculatorDataSet.xss">
+      <DependentUpon>CalculatorDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -115,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user-icon-person-icon-client-symbol-login-head-sign-icon-design-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
